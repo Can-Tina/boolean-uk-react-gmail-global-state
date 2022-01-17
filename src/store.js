@@ -5,10 +5,10 @@ import initialEmails from './data/emails'
 export const StoreContext = React.createContext()
 
 export class StoreActions {
-  static hideRead = 'Menu/Hide Read'
-  static setTab = 'Menu/Set Tab'
-  static doSearch = 'Header/Do Search'
-  static updateEmail = 'Emails/Update Emails'
+  static hideRead = 'Hide Read'
+  static setTab = 'Set Tab'
+  static doSearch = 'Do Search'
+  static updateEmail = 'Update Emails'
   //STORES THE VARIOUS ACTIONS AVAILABLE TO THE USER LIKE CONSTANTS
   //YOU CAN'T USE CONST
   //THEY BECOME THE TYPES FOR THE REDUCERS
